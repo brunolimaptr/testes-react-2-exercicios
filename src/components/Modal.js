@@ -107,6 +107,7 @@ function Modal(props) {
     const weight = (activeModal.weight / 10).toFixed(1)
     const height = (activeModal.height / 10).toFixed(1)
 
+    console.log(activeModal);
     return (
         <Container>
             <ImageBox firstType={types[0]}>
